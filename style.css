@@ -205,43 +205,46 @@
     .faq-img img{
         width: 100%;
     }
+    .banner-form input {
+        width: 60%!important;
+    }
     .banner-text h2 {
-    font-size: 35px;
-}
-.banner-content {
-    margin-top: 20px;
-    padding: 35px 25px;
-    background-position: center center;
-}
-.banner-text p{
-    width: 100%!important;
-}
-.section-header p {
-    width: 100%!important;
-}
-.feedback-content1 {
-    padding: 50px 0;
-}
-.center-it{
-    
-}
-.last-foot{
-    margin-top:  10px;
-}
-.last-foot p{
-    width: 100%!important;
-}
-.last-foot input {
-    width: 85%;
-}
-.contact-form input {
-    width: 100%;
-}
-.contact-form textarea {
-    width: 100%;
-}
-.contact-form .form-btn {
-    width: 100%;
-}
+        font-size: 35px;
+    }
+    .banner-content {
+        margin-top: 20px;
+        padding: 35px 25px;
+        background-position: center center;
+    }
+    .banner-text p{
+        width: 100%!important;
+    }
+    .section-header p {
+        width: 100%!important;
+    }
+    .feedback-content1 {
+        padding: 50px 0;
+    }
+    .center-it{
+        
+    }
+    .last-foot{
+        margin-top:  10px;
+    }
+    .last-foot p{
+        width: 100%!important;
+    }
+    .last-foot input {
+        width: 85%;
+    }
+    .contact-form input {
+        width: 100%;
+    }
+    .contact-form textarea {
+        width: 100%;
+    }
+    .contact-form .form-btn {
+        width: 100%;
+    }
     
 }
