@@ -234,5 +234,14 @@
 .last-foot input {
     width: 85%;
 }
+.contact-form input {
+    width: 100%;
+}
+.contact-form textarea {
+    width: 100%;
+}
+.contact-form .form-btn {
+    width: 100%;
+}
     
 }
