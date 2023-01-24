@@ -3,9 +3,6 @@
     
 }
 
-.web-header{}
-.web-header ul{}
-.web-header ul li{}
 .web-header ul li a{
     text-decoration: none;
 }
@@ -17,16 +14,15 @@
     background: #B68C5A;
     
 }
-.header-btn:hover{
-    background: #B68C5A;
-}
 
 .banner-content{
     background-image: url('./images/banner.png');
     background-repeat: no-repeat;
     background-size: cover;
     padding: 125px 0;
+    border-radius: 5px;
 }
+
 .banner-text h2 {
     font-size: 67px;
 }
@@ -139,12 +135,104 @@
     border-radius: 50px;
     border: 1px solid white;
 }
+.contact-form{}
+.contact-form input {
+    display: block;
+    width: 75%;
+    height: 45px;
+    margin-bottom: 20px;
+    background: #F3F3F3;
+    border: none;
+    padding: 15px;
+    font-size: 15px;
+    outline: none;
+    border-radius: 5px;
+}
+.contact-form textarea {
+    width: 75%;
+    height: 140px;
+    display: block;
+    background: #F3F3F3;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    resize: none;
+    outline: none;
+}
+.contact-form .form-btn {
+    width: 75%;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    background: #B68C5A;
+}
+.contact-info {
+    box-shadow: 1px 1px 7px -3px #4f484833;
+    padding: 20px;
+    background: #F3F3F3;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.contact-info p{
+    font-size: 15px;
+}
+.second-foot ul li{
+    list-style: none;
+}
 
-
+.last-foot input {
+    height: 40px;
+    width: 45%;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: 0;
+    padding: 0 10px;
+}
+.last-foot .footer-btn {
+    width: 50px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    left: -10px;
+    background: #B68C5A;
+    color: #fff;
+}
 
 @media screen and (max-width: 650px) {
     .faq-img img{
         width: 100%;
     }
+    .banner-text h2 {
+    font-size: 35px;
+}
+.banner-content {
+    margin-top: 20px;
+    padding: 35px 25px;
+    background-position: center center;
+}
+.banner-text p{
+    width: 100%!important;
+}
+.section-header p {
+    width: 100%!important;
+}
+.feedback-content1 {
+    padding: 50px 0;
+}
+.center-it{
+    
+}
+.last-foot{
+    margin-top:  10px;
+}
+.last-foot p{
+    width: 100%!important;
+}
+.last-foot input {
+    width: 85%;
+}
     
 }
