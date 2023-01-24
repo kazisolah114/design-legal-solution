@@ -202,6 +202,9 @@
 }
 
 @media screen and (max-width: 650px) {
+    .web-header {
+    padding: 15px;
+    }
     .faq-img img{
         width: 100%;
     }
